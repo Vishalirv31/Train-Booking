@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./train1.webp);
+    background-size: cover;
+}
+.train-container {
+    width: 60%;
+    height: 450px;
+    margin: 20px auto;
+    background-color: #fff;
+    margin-left: 30px;
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color:white;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding-left:-10px ;
+    margin-right: 40px;
+    
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.seat-box {
+    width: 15%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+}
+.seat-box div {
+    padding: 10px;
+    margin: 15px 0;
+    background-color: #87ebe3b4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.Allocated {
+    background-color: #8b2922;
+    color: white;
+    font-weight: bold;
+}
+
